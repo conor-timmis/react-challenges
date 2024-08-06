@@ -6,7 +6,7 @@ function App() {
   return (
     <div className={css.App}>
       <StatefulGreeting greeting="I'm a stateful class component!"/>
-      <Sidebar />
+      
     </div>
   );
 }
