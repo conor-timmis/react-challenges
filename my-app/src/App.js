@@ -5,7 +5,7 @@ import StatefulGreeting from './components/StatefulGreeting';
 function App() {
   return (
     <div className={css.App}>
-      <StatefulGreeting />
+      <StatefulGreeting greeting="I'm a stateful class component!"/>
       <Sidebar />
     </div>
   );
