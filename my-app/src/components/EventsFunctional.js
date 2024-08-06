@@ -4,9 +4,11 @@ function EventsFunctional() {
     function clickHandler() {
         console.log("Clicked the functional button")
     }
-  return (
-    <button onClick={clickHandler}>click me - functional component</button>
-  )
+    return (
+        <div>
+            <button onClick={clickHandler}>click me - functional component</button>
+        </div>
+    )
 }
 
 export default EventsFunctional
