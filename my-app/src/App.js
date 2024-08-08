@@ -1,11 +1,12 @@
-import css from './App.module.css';
-
+import "./App.css";
+import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
+import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 
 function App() {
   return (
-    <div className={css.App}>
-      
-      
+    <div className="App">
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true} />
     </div>
   );
 }
